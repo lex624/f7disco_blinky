@@ -13,7 +13,7 @@
 #include "setup.hpp"
 
 //system initialization
-Result SystemInitialiize(void);
+Result SystemInitialize(void);
 
 
 #endif /* BOOT_HPP_ */

@@ -17,13 +17,12 @@
 //all the startup is defined in the .s files for when the build process begins (machine code)
 extern "C"	{
 
-//Exception handler functions
-void  Reset_Handler(void);
-void  NMI_Handler(void);
-
 //trigers when the certain errors like accessing the wrong memory location or when theres a pointer to a class that is currently null
-void  HardFault_Handler(void);
+//---------------------------
+//Exception Handler Functions
 
+void  NMI_Handler(void);
+void  HardFault_Handler(void);
 void  MemManage_Handler(void);
 void  BusFault_Handler(void);
 void  UsageFault_Handler(void);

@@ -1,3 +1,3 @@
 ../Drivers/CMSIS/Include/core_cm7.h:2229:22:void SCB_EnableICache()	4	static,ignoring_inline_asm
 ../Drivers/CMSIS/Include/core_cm7.h:2281:22:void SCB_EnableDCache()	24	static,ignoring_inline_asm
-../Core/boot.cpp:15:8:Result SystemInitialiize()	288	static
+../Core/boot.cpp:33:8:Result SystemInitialize()	288	static
