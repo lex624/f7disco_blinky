@@ -73,11 +73,20 @@ int main(void) {
 
 	while(1)	{
 
+		uint32_t timer;
+
 		        Red_LED_On();
 		        Green_LED_Off();
+
+		        timer=0;
+		        while (	timer < 10000)	{ timer++; }
+
 		        // Turn Red LED Off, Green LED On
 		        Red_LED_Off();
 		        Green_LED_On();
+
+		        timer=0;
+		        while (	timer < 10000)	{ timer++; }
 	}
 
 	return 0;

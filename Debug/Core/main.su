@@ -5,4 +5,4 @@
 ../Core/main.cpp:49:6:void Red_LED_Off()	8	static
 ../Core/main.cpp:54:6:void Green_LED_On()	8	static
 ../Core/main.cpp:59:6:void Green_LED_Off()	8	static
-../Core/main.cpp:66:5:int main()	8	static
+../Core/main.cpp:66:5:int main()	16	static
