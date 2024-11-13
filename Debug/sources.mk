@@ -40,6 +40,7 @@ CPP_DEPS :=
 SUBDIRS := \
 Core/Startup \
 Core \
+Device_Drivers \
 Drivers/STM32F7xx_HAL_Driver/Src/Legacy \
 Drivers/STM32F7xx_HAL_Driver/Src \
 

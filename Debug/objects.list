@@ -6,6 +6,7 @@
 "./Core/syscalls.o"
 "./Core/sysmem.o"
 "./Core/system_stm32f7xx.o"
+"./Device_Drivers/GPIO.o"
 "./Drivers/STM32F7xx_HAL_Driver/Src/Legacy/stm32f7xx_hal_can.o"
 "./Drivers/STM32F7xx_HAL_Driver/Src/Legacy/stm32f7xx_hal_eth.o"
 "./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o"

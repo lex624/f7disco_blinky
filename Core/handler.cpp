@@ -32,15 +32,15 @@ void  UsageFault_Handler(void) {
 }
 
 void  SVC_Handler(void) {
-//	while(1)	{}
+
 }
 
 void  DebugMon_Handler(void) {
-//	while(1)	{}
+
 }
 
 void  PendSV_Handler(void) {
-//	while(1)	{}
+
 }
 
 void  SysTick_Handler(void) {
