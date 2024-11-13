@@ -1,1 +1,2 @@
-../Core/main.cpp:24:5:int main()	3
+../Core/main.cpp:26:5:int main()	4
+../Core/main.cpp:76:6:void runHeartbeat(GPIO_Output*, uint32_t&)	2

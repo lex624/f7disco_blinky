@@ -39,7 +39,15 @@ enum Result : uint8_t {
 #define USERBUTTON_GPIO_PORT        GPIOA
 #define USERBUTTON_GPIO_PIN         GPIO_PIN_0   // A0
 
+//Constants
 
+// Define the frame duration in milliseconds
+//This is to handle 32bit value overflow issue
+//The goal of this algorithm is to ensure that each frame (or cycle) takes a fixed amount of time,
+//allowing you to maintain a stable frame rate. If the frame completes early, the system will wait
+//until the next frame period begins.
+constexpr uint32_t FRAME_DURATION_MS = 16; // ~60 FPS
+constexpr uint32_t HEARTBEAT_INTERVAL_MS = 500; // 500 ms for on/off cycle
 
 
 
