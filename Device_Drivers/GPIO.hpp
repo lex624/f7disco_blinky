@@ -33,4 +33,27 @@ public:
 
 };
 
-#endif /* DEVICE_DRIVERS_GPIO_HPP_ */
+// GPIO input class
+class GPIO_Input {
+
+public:
+    // Pin state enumeration for input
+    enum PinState : uint8_t { PinLow = 0, PinHigh };
+
+private:
+    GPIO_TypeDef* m_pGPIO;
+    uint16_t m_uPin;
+
+public:
+    // Constructor and destructor
+    GPIO_Input(GPIO_TypeDef* pGPIO, uint16_t uPin);
+    GPIO_Input() = delete;
+    ~GPIO_Input();
+
+    // Methods
+    PinState readState(void) const; // Read the current state of the pin
+};
+
+#endif /* GPIO_HPP_ */
+
+
